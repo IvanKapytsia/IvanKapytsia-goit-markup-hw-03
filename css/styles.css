@@ -162,6 +162,7 @@ img {
 
 /*section advantages*/
 .advantages {
+  padding: 120px 0;
 }
 
 .advantages-title {
@@ -174,13 +175,28 @@ img {
   text-transform: capitalize;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .advantages-list {
+  display: flex;
+  gap: 24px;
 }
 
 .advantages-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-item-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
