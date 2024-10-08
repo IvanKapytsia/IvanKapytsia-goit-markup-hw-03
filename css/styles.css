@@ -46,6 +46,7 @@ img {
 
 .content-header {
   display: flex;
+  padding: 24px 0;
 }
 
 .header-nav {
@@ -98,6 +99,7 @@ img {
 }
 
 .header-contacts {
+  margin-left: 332px;
 }
 
 .header-contacts-list {
@@ -131,6 +133,7 @@ img {
 }
 
 .promo-title {
+  margin-left: 332px;
   max-width: 496px;
   font-weight: 700;
   font-size: 56px;
@@ -141,6 +144,8 @@ img {
 }
 
 .promo-button {
+  margin-left: 500px;
+  margin-top: 48px;
   display: block;
   min-width: 169px;
   height: 56px;
