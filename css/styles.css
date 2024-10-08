@@ -269,9 +269,11 @@ img {
 
 /*Our Portfolio*/
 .portfolio {
+  padding: 120px 0;
 }
 
 .portfolio-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -282,15 +284,27 @@ img {
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .portfolio-item {
+  height: 420px;
 }
 
 .portfolio-item-image {
 }
 
+.box-portfolio {
+  padding: 32px 0;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
 .portfolio-item-title {
+  margin-left: 16px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -299,6 +313,7 @@ img {
 }
 
 .portfolio-item-category {
+  margin-left: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
