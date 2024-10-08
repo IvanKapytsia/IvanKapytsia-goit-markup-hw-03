@@ -81,10 +81,10 @@ img {
 }
 
 .header-menu-item {
-  padding: 24px 0;
 }
 
 .header-menu-link {
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -98,11 +98,11 @@ img {
 }
 
 .header-contacts {
-  display: flex;
-  gap: 40px;
 }
 
 .header-contacts-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-contacts-item {
