@@ -215,10 +215,12 @@ img {
 
 /*section team*/
 .team {
+  padding: 120px 0;
   background: #f4f4fd;
 }
 
 .team-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -229,16 +231,26 @@ img {
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
+  height: 380px;
 }
 
 .team-member {
+  width: calc((100%-72) 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 
 .team-member-photo {
 }
 
+.box-member {
+  padding: 32px 0;
+}
+
 .team-member-name {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
